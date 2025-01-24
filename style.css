@@ -1,0 +1,167 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+h1::before {
+    content: "╬";
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+
+}
+h1::after {
+    content: "╬";
+    margin-left: 10px;
+    color: white;
+}
+.footer-text::before {
+    content: "╬";
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+
+}
+.footer-text::after {
+    content: "╬";
+    margin-left: 10px;
+    color: white;
+}
+.button:hover {
+    background-color: #1f99aa;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff5722;
+    text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.post:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-but:hover {
+    background-color: #1c2f73;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social:hover img {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease;
+}
+aside {
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100px;
+    height: 250px;
+}
+.social {
+    margin: 10px auto;
+    width: 50px;
+}
